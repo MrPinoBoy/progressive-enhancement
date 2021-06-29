@@ -5,10 +5,30 @@ p {
 }
 a {
     color: rgb(0, 195, 255);
+    font-family: serif;
+    word-spacing: 0.25em;
 }
 a:hover {
     color: rgb(89, 34, 241);
 }
 a:visited {
     color: rgb(64, 0, 138);
+}
+body {
+    max-width: 90%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+q {
+    width: 50%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 160%;
+    background-color: rgb(180, 180, 180);
+    border-left: 3px solid;
+    padding-left: 30px;
 }
