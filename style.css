@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.good,.bad{
+    text-transform: uppercase;
+}
+.good {
+    color: green;
+}
+.bad {
+    color: red;
+}
+tr:nth-child(even) {
+    background-color: grey;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+p:first-child {
+    font-weight: bold;
+}
+img {
+    float: left;
+    margin-right: 100px;
+    width: 20%;
+    height: 20%;
+}
+.villager {
+    border-color: indianred;
+}
+.farmer {
+    border-color: indigo;
+}
+header h1 {
+    background-color: yellow;
+}
+body {
+    max-width: 90%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background: linear-gradient(49deg, rgb(143, 22, 237), rgb(90, 22, 20));
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    font-family: Open Sans;
+}
 p {
     font-family: serif;
     word-spacing: 0.25em;
@@ -14,21 +61,15 @@ a:hover {
 a:visited {
     color: rgb(64, 0, 138);
 }
-body {
-    max-width: 90%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
 q {
     width: 50%;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    margin-top: 80px;
+    margin-bottom: 80px;
     margin-left: 0%;
     margin-right: 0%;
     font-size: 160%;
-    background-color: rgb(180, 180, 180);
-    border-left: 3px solid;
+    background-color: rgb(180, 180, 180, 0.5);
+    border-left: 3px dashed;
     padding-left: 30px;
+    font-style: italic;
 }

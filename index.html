@@ -25,16 +25,16 @@
             <section><!-- Here it is a section of the article -->
                 <h2>The story</h2>
                 <blockquote cite="https://wellsbaum.blog/alan-watts-story-of-the-chinese-farmer/">
-                    <p>Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, <q>We are so sorry to hear your horse has run away. This is most unfortunate.</q><!-- Quotation: used for small quotations --> The farmer said, <q><em>Maybe</em><!-- Emphasize: Emphasises the word-->.</q> The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <q>Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</q> The farmer again said, <q><em>Maybe</em>.</q> </p><!-- Paragraph: Used to delimit paragraphs -->
-                    <p>The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, <q>Oh dear, that’s too bad,</q> and the farmer responded, <q><em>Maybe</em>.</q> The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, <q>Isn’t that great!</q> Again, he said, <q><em>Maybe</em>.</q></p>
-                    <p>The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is good or bad — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of good fortune. Alan Watts</p>
+                    <p>Once upon a time there was a Chinese farmer whose horse ran away. That evening, all of his neighbors came around to commiserate. They said, <q class="villager">We are so sorry to hear your horse has run away. This is most unfortunate.</q><!-- Quotation: used for small quotations --> The farmer said, <q class="farmer"><em>Maybe</em><!-- Emphasize: Emphasises the word-->.</q> The next day the horse came back bringing seven wild horses with it, and in the evening everybody came back and said, <q class="villager">Oh, isn’t that lucky. What a great turn of events. You now have eight horses!</q> The farmer again said, <q class="farmer"><em>Maybe</em>.</q> </p><!-- Paragraph: Used to delimit paragraphs -->
+                    <p>The following day his son tried to break one of the horses, and while riding it, he was thrown and broke his leg. The neighbors then said, <q class="villager">Oh dear, that’s too <tag class="bad">bad</tag>,</q> and the farmer responded, <q class="farmer"><em>Maybe</em>.</q> The next day the conscription officers came around to conscript people into the army, and they rejected his son because he had a broken leg. Again all the neighbors came around and said, <q class="villager">Isn’t that great!</q> Again, he said, <q class="farmer"><em>Maybe</em>.</q></p>
+                    <p>The whole process of nature is an integrated process of immense complexity, and it’s really impossible to tell whether anything that happens in it is <tag class="good">good</tag> or <tag class="bad">bad</tag> — because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of <tag class="good">good</tag> fortune. Alan Watts</p>
                 </blockquote><!-- Used for quotations, when they come from another website. -->
             </section>
             <section>
                 <h2>Here is this dialog in the form of a table</h2>
                 <table><!-- Used to make a table -->
                     <tr><!-- Table Row: Used to create a row in the table -->
-                        <th>Event</th><th>Good or bad?</th><!-- Table Header: Often used for the first row of a table, to give a titles to the columns (and vice versa, in the first collumn, to give a title to the rows)-->
+                        <th>Event</th><th><tag class="good">Good</tag> or <tag class="bad">bad</tag>?</th><!-- Table Header: Often used for the first row of a table, to give a titles to the columns (and vice versa, in the first collumn, to give a title to the rows)-->
                     </tr>
                     <tr>
                         <td>Lose a horse</td><td><em>Maybe</em></td><!-- Table Data: Used to put data in a table case -->
@@ -53,7 +53,7 @@
             </section>
             <section>
                 <h2>Conclusion</h2>
-                <p><tag class="good">Good</tag> and <tag class="bad">Bad</tag> are just one perspective. Bananas are good for monkeys, but monkeys are not good for bananas. Let's not make a big deal out of it...</p>
+                <p><tag class="good">Good</tag> and <tag class="bad">Bad</tag> are just one perspective. Bananas are <tag class="good">good</tag> for monkeys, but monkeys are not <tag class="good">good</tag> for bananas. Let's not make a big deal out of it...</p>
             </section>
         </article>
         <footer><!-- Used for any footnote information -->
