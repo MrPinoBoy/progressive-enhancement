@@ -1,0 +1,14 @@
+p {
+    font-family: serif;
+    word-spacing: 0.25em;
+    color: rgb(21, 42, 88);
+}
+a {
+    color: rgb(0, 195, 255);
+}
+a:hover {
+    color: rgb(89, 34, 241);
+}
+a:visited {
+    color: rgb(64, 0, 138);
+}
